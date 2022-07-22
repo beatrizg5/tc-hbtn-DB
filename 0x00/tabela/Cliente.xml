@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE items>
+<items>
+    <row>
+       <id>1</id>
+       <nome>Betty</nome>
+       <email>betty@techcamps.com</email>
+       <telefone>12345678</telefone>
+    </row>
+</items>
