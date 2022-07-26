@@ -2,16 +2,14 @@ package models;
 
 import entities.Produto;
 
-import javax.persistence.Entity;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-@Entity
-public class PessoaModel implements Serializable {
+
+public class PessoaModel {
 
     public void create(Produto p) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("admin-jpa");

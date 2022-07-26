@@ -1,6 +1,10 @@
 package entities;
 
-public class Produto {
+import javax.persistence.Entity;
+import java.io.Serializable;
+
+@Entity
+public class Produto implements Serializable {
     private Integer id;
     private  String nome;
     private int quantidade;
