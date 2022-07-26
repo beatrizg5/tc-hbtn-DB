@@ -1,8 +1,11 @@
 package entities;
 
+import javax.persistence.Entity;
+import java.io.Serializable;
 import java.util.Date;
 
-public class Pessoa {
+@Entity
+public class Pessoa implements Serializable {
     private Integer id;
     private  String nome;
     private  String email;
